@@ -1,0 +1,342 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6F24AB851774338E00351317 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F24AB841774338E00351317 /* UIKit.framework */; };
+		6F24AB871774338E00351317 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F24AB861774338E00351317 /* Foundation.framework */; };
+		6F24AB891774338E00351317 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F24AB881774338E00351317 /* CoreGraphics.framework */; };
+		6F24AB8F1774338E00351317 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6F24AB8D1774338E00351317 /* InfoPlist.strings */; };
+		6F24AB911774338E00351317 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F24AB901774338E00351317 /* main.m */; };
+		6F24AB951774338E00351317 /* LCVoiceHudAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F24AB941774338E00351317 /* LCVoiceHudAppDelegate.m */; };
+		6F24AB971774338E00351317 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F24AB961774338E00351317 /* Default.png */; };
+		6F24AB991774338E00351317 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F24AB981774338E00351317 /* Default@2x.png */; };
+		6F24AB9B1774338E00351317 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F24AB9A1774338E00351317 /* Default-568h@2x.png */; };
+		6F24ABA4177433B100351317 /* LCVoice.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F24ABA3177433B100351317 /* LCVoice.m */; };
+		6F24ABA7177433CB00351317 /* LCVoiceHud.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F24ABA6177433CB00351317 /* LCVoiceHud.m */; };
+		6F24ABAB1774346D00351317 /* mic_normal_358x358@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F24ABA81774346C00351317 /* mic_normal_358x358@2x.png */; };
+		6F24ABAC1774346D00351317 /* mic_talk_358x358@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F24ABA91774346D00351317 /* mic_talk_358x358@2x.png */; };
+		6F24ABAD1774346D00351317 /* wave70x117@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F24ABAA1774346D00351317 /* wave70x117@2x.png */; };
+		6F24ABB01774388700351317 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F24ABAF1774388700351317 /* QuartzCore.framework */; };
+		6F24ABB41774417300351317 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F24ABB31774417300351317 /* AVFoundation.framework */; };
+		6F24ABB6177450B100351317 /* black_bg_ip5@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F24ABB5177450B100351317 /* black_bg_ip5@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6F24AB811774338E00351317 /* LCVoiceHud.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LCVoiceHud.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F24AB841774338E00351317 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6F24AB861774338E00351317 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6F24AB881774338E00351317 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6F24AB8C1774338E00351317 /* LCVoiceHud-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LCVoiceHud-Info.plist"; sourceTree = "<group>"; };
+		6F24AB8E1774338E00351317 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6F24AB901774338E00351317 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6F24AB921774338E00351317 /* LCVoiceHud-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LCVoiceHud-Prefix.pch"; sourceTree = "<group>"; };
+		6F24AB931774338E00351317 /* LCVoiceHudAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LCVoiceHudAppDelegate.h; sourceTree = "<group>"; };
+		6F24AB941774338E00351317 /* LCVoiceHudAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LCVoiceHudAppDelegate.m; sourceTree = "<group>"; };
+		6F24AB961774338E00351317 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		6F24AB981774338E00351317 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		6F24AB9A1774338E00351317 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		6F24ABA2177433B100351317 /* LCVoice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCVoice.h; sourceTree = "<group>"; };
+		6F24ABA3177433B100351317 /* LCVoice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCVoice.m; sourceTree = "<group>"; };
+		6F24ABA5177433CB00351317 /* LCVoiceHud.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCVoiceHud.h; sourceTree = "<group>"; };
+		6F24ABA6177433CB00351317 /* LCVoiceHud.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCVoiceHud.m; sourceTree = "<group>"; };
+		6F24ABA81774346C00351317 /* mic_normal_358x358@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mic_normal_358x358@2x.png"; sourceTree = "<group>"; };
+		6F24ABA91774346D00351317 /* mic_talk_358x358@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mic_talk_358x358@2x.png"; sourceTree = "<group>"; };
+		6F24ABAA1774346D00351317 /* wave70x117@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wave70x117@2x.png"; sourceTree = "<group>"; };
+		6F24ABAF1774388700351317 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		6F24ABB31774417300351317 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		6F24ABB5177450B100351317 /* black_bg_ip5@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "black_bg_ip5@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6F24AB7E1774338E00351317 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F24ABB41774417300351317 /* AVFoundation.framework in Frameworks */,
+				6F24ABB01774388700351317 /* QuartzCore.framework in Frameworks */,
+				6F24AB851774338E00351317 /* UIKit.framework in Frameworks */,
+				6F24AB871774338E00351317 /* Foundation.framework in Frameworks */,
+				6F24AB891774338E00351317 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6F24AB781774338E00351317 = {
+			isa = PBXGroup;
+			children = (
+				6F24AB8A1774338E00351317 /* LCVoiceHud */,
+				6F24AB831774338E00351317 /* Frameworks */,
+				6F24AB821774338E00351317 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6F24AB821774338E00351317 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6F24AB811774338E00351317 /* LCVoiceHud.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6F24AB831774338E00351317 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6F24ABB31774417300351317 /* AVFoundation.framework */,
+				6F24ABAF1774388700351317 /* QuartzCore.framework */,
+				6F24AB841774338E00351317 /* UIKit.framework */,
+				6F24AB861774338E00351317 /* Foundation.framework */,
+				6F24AB881774338E00351317 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6F24AB8A1774338E00351317 /* LCVoiceHud */ = {
+			isa = PBXGroup;
+			children = (
+				6F24ABA11774339800351317 /* LCVoice */,
+				6F24AB931774338E00351317 /* LCVoiceHudAppDelegate.h */,
+				6F24AB941774338E00351317 /* LCVoiceHudAppDelegate.m */,
+				6F24AB8B1774338E00351317 /* Supporting Files */,
+			);
+			path = LCVoiceHud;
+			sourceTree = "<group>";
+		};
+		6F24AB8B1774338E00351317 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6F24AB8C1774338E00351317 /* LCVoiceHud-Info.plist */,
+				6F24AB8D1774338E00351317 /* InfoPlist.strings */,
+				6F24AB901774338E00351317 /* main.m */,
+				6F24AB921774338E00351317 /* LCVoiceHud-Prefix.pch */,
+				6F24AB961774338E00351317 /* Default.png */,
+				6F24AB981774338E00351317 /* Default@2x.png */,
+				6F24AB9A1774338E00351317 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6F24ABA11774339800351317 /* LCVoice */ = {
+			isa = PBXGroup;
+			children = (
+				6F24ABAE1774347700351317 /* Resources */,
+				6F24ABA2177433B100351317 /* LCVoice.h */,
+				6F24ABA3177433B100351317 /* LCVoice.m */,
+				6F24ABA5177433CB00351317 /* LCVoiceHud.h */,
+				6F24ABA6177433CB00351317 /* LCVoiceHud.m */,
+			);
+			name = LCVoice;
+			sourceTree = "<group>";
+		};
+		6F24ABAE1774347700351317 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6F24ABB5177450B100351317 /* black_bg_ip5@2x.png */,
+				6F24ABA81774346C00351317 /* mic_normal_358x358@2x.png */,
+				6F24ABA91774346D00351317 /* mic_talk_358x358@2x.png */,
+				6F24ABAA1774346D00351317 /* wave70x117@2x.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6F24AB801774338E00351317 /* LCVoiceHud */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F24AB9E1774338E00351317 /* Build configuration list for PBXNativeTarget "LCVoiceHud" */;
+			buildPhases = (
+				6F24AB7D1774338E00351317 /* Sources */,
+				6F24AB7E1774338E00351317 /* Frameworks */,
+				6F24AB7F1774338E00351317 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LCVoiceHud;
+			productName = LCVoiceHud;
+			productReference = 6F24AB811774338E00351317 /* LCVoiceHud.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6F24AB791774338E00351317 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = LCVoiceHud;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Wuxiantai Developer Team";
+			};
+			buildConfigurationList = 6F24AB7C1774338E00351317 /* Build configuration list for PBXProject "LCVoiceHud" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6F24AB781774338E00351317;
+			productRefGroup = 6F24AB821774338E00351317 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6F24AB801774338E00351317 /* LCVoiceHud */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6F24AB7F1774338E00351317 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F24AB8F1774338E00351317 /* InfoPlist.strings in Resources */,
+				6F24AB971774338E00351317 /* Default.png in Resources */,
+				6F24AB991774338E00351317 /* Default@2x.png in Resources */,
+				6F24AB9B1774338E00351317 /* Default-568h@2x.png in Resources */,
+				6F24ABAB1774346D00351317 /* mic_normal_358x358@2x.png in Resources */,
+				6F24ABAC1774346D00351317 /* mic_talk_358x358@2x.png in Resources */,
+				6F24ABAD1774346D00351317 /* wave70x117@2x.png in Resources */,
+				6F24ABB6177450B100351317 /* black_bg_ip5@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6F24AB7D1774338E00351317 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F24AB911774338E00351317 /* main.m in Sources */,
+				6F24AB951774338E00351317 /* LCVoiceHudAppDelegate.m in Sources */,
+				6F24ABA4177433B100351317 /* LCVoice.m in Sources */,
+				6F24ABA7177433CB00351317 /* LCVoiceHud.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6F24AB8D1774338E00351317 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6F24AB8E1774338E00351317 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6F24AB9C1774338E00351317 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6F24AB9D1774338E00351317 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6F24AB9F1774338E00351317 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LCVoiceHud/LCVoiceHud-Prefix.pch";
+				INFOPLIST_FILE = "LCVoiceHud/LCVoiceHud-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6F24ABA01774338E00351317 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LCVoiceHud/LCVoiceHud-Prefix.pch";
+				INFOPLIST_FILE = "LCVoiceHud/LCVoiceHud-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6F24AB7C1774338E00351317 /* Build configuration list for PBXProject "LCVoiceHud" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F24AB9C1774338E00351317 /* Debug */,
+				6F24AB9D1774338E00351317 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F24AB9E1774338E00351317 /* Build configuration list for PBXNativeTarget "LCVoiceHud" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F24AB9F1774338E00351317 /* Debug */,
+				6F24ABA01774338E00351317 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6F24AB791774338E00351317 /* Project object */;
+}
